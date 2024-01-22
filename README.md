@@ -16,10 +16,12 @@ predicateのentity_propertyに関するデータパックサンプルになり�
 
 ***
 
-一部、コマンドの実行者やコマンドの実行位置を指示しなければ分かりにくいものがあります。<br>
+一部、コマンドの実行者やコマンドの実行位置を指示しなければ分かりにくいものがあります。
+
 type_specific.jsonを指示する場合は``` /execute as @e[type=cat] if predicate sample:type_specific run give @a diamond 1```<br>
 targeted_entity.jsonを指示する場合は```/execute as @e[type=zombie] if predicate sample:targeted_entity run give @a minecraft:diamond 1```<br>
-distance.jsonを指示する場合は```/execute positioned 10 10 10 if predicate sample:distance run give @a diamond 1```<br>
+distance.jsonを指示する場合は```/execute positioned 10 10 10 if predicate sample:distance run give @a diamond 1```
+
 といった風にasやpositionedを指示してください。
 
 また、passenger.jsonはrideコマンドを駆使して、アイアンゴーレムを何かしらのmobに騎乗させてください。
